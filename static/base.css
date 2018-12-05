@@ -1,10 +1,44 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+
 }
 body {
     margin-top: 70px!important;
+    background-color: #eeeeee!important;
 }
 ul {
     list-style-type: none;
+}
+
+.glyphicon {
+  position: relative;
+  top: 2.1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.page-bottom {
+    width: 100%;
+    clear: both;
+    background: #e7e7e7;
+    margin-top: 2.5em;
+    padding: 1em 0 0;
+    color: #777;
+}
+
+.page-bottom .copyright {
+    text-align: center;
+    padding: 0.5em 0;
+    margin-top: 1.5em;
+    background: #4F5893;
+    color: #e7e7e7;
 }
